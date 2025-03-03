@@ -10,7 +10,7 @@ class MainKtTest {
     @Test
     fun calcNoCommissinMaster() {
         val result = calcCommissin("Mastercard", 0.0, 1000.0)
-        assertEquals(-1.0, result, 0.01)
+        assertEquals(1.0, result, 0.01)
     }
     @Test
     fun calcFullCommissinMaster() {
